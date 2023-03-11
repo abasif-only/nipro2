@@ -1,0 +1,174 @@
+/*fonts family*/
+@font-face{
+	font-family: Lato-Regular,sans-serif;
+	scr: url(../fonts/lato/Lato-Regular.ttf);
+}
+@font-face{
+	font-family: Lato-Medium,sans-serif;
+	scr: url(../fonts/lato/Lato-Medium.ttf);
+}
+@font-face{
+	font-family: Lato-Bold,sans-serif;
+	scr: url(../fonts/lato/Lato-Bold.ttf);
+}
+@font-face{
+	font-family: Roboto-Regular,sans-serif;
+	scr: url(../fonts/roboto/Roboto-Regular.ttf);
+}
+@font-face{
+	font-family: Roboto-Medium,sans-serif;
+	scr: url(../fonts/roboto/Roboto-Medium.ttf);
+}
+
+/*common code*/
+body{
+	font-family: Roboto-Regular,sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #8e8e8e;
+}
+/*header start*/
+.head{
+	background-color: white;
+	margin: 10px 0 15px;
+}
+.h_img{}
+.h_img img{}
+.menu{}
+.menu ul{}
+.menu ul li{}
+.menu ul li a{
+	transition: .50s;
+}
+.menu ul li a:hover{
+	color:black;
+}
+/*header end*/
+/*banner start*/
+.slider {
+	margin-top: 10px;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider_text {
+    padding: 160px 0;
+    color: white;
+}
+.slider_text h1 {
+    font-family: Lato-Bold;
+    font-size: 60px;
+    font-weight: 700;
+}
+.slider_text p {
+    padding: 50px 0;
+}
+.btn_c {
+    padding: 15px 30px;
+    font-family: Roboto-Medium;
+    font-weight: 500;
+    color: white;
+    font-weight: 500;;
+    border: none;
+    border-radius: 0;
+}
+.btn_slider {
+    background-color: white;
+    color: black;
+}
+.indecator button {
+    color: var(--grey);
+    border: 0;
+}
+.indecator button:hover {
+    color: var(--black);
+}
+/*banner end*/
+/*about start*/
+.about{
+	padding: 80px 0 100px;
+}
+.a-img{}
+.a-img img{
+	
+}
+.a-text{
+	padding-left: 0px;
+}
+.a-h2{
+	font-family: Lato-Regular,sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: #333333;
+}
+.a-p{
+	padding: 20px 0 15px;
+}
+.a-p2{
+	padding-bottom: 15px;
+}
+.a-text button{
+	font-family: Roboto-Medium;
+    font-weight: 500;
+    padding: 15px 30px;
+	text-decoration: none;
+	color: #333333;
+	background-color: white;
+}
+.a-text button:hover{
+	background-color: #333333;
+	color: white;
+}
+/*about end*/
+/*service start*/
+.servi{
+	padding: 40px 0 100px;
+}
+.c-head{
+    width: 2px;
+    height: 50px;
+    background-color: black;
+}
+.s-text{
+	margin-top: 10px;
+}
+.s-h2{
+    font-family: Lato-Regular;
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+}
+.s-menu{
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+.s-menu ul li{
+	margin-right: 30px!important;
+}
+.s-menu ul li a{
+	transition: .55s;
+}
+.s-menu ul li:hover{
+   color: black; 
+}
+.s-item{
+     
+}
+.s-img{
+	margin-top: 20px;
+}
+.s-img img{}
+.item-icon i{
+	display: none;
+    position: absolute;
+    top: 120px;
+    left: 150px;
+    font-size: 60px;
+    color: white;
+    border: 6px solid white;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+/*service end*/
